@@ -67,7 +67,7 @@ namespace ProtoWeb.Infra.Data.MainContext.Repositories
         public async Task<ClienteReadOnly> GetByCorreo(string correo, int id)
         {
             var query = await (from cliente in _context.Cliente
-                               where cliente.Correo == correo && cliente.Id != id
+                               where cliente.Correo == correo && cliente.Id != id && cliente.Activo
                                select new ClienteReadOnly
                                {
                                    Id = cliente.Id,
