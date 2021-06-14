@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnual">
+    <Position X="5.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PlanificacionAnualCategoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividad">
+    <Position X="9" Y="5.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnualCategoria">
+    <Position X="0.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PlanificacionAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnual">
+    <Position X="0.5" Y="4" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnualEstrategiaAccion">
+    <Position X="5.5" Y="6" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PlanificacionAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnualEstrategiaEjecucion">
+    <Position X="5.5" Y="8.75" Width="2.75" />
+    <AssociationLine Name="PlanificacionAnual" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnual" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="9.875" />
+        <Point X="3.75" Y="9.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PlanificacionAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.PlanificacionAnualObjetivosEspecificos">
+    <Position X="5.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PlanificacionAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualEstrategiaEjecucion">
+    <Position X="10.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualEstrategiaEvaluacion">
+    <Position X="13.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualObjetivoEspecifico">
+    <Position X="17" Y="0.5" Width="2.75" />
+    <AssociationLine Name="ProgramaAnual" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnual" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.903" Y="2.632" />
+        <Point X="17.903" Y="3.697" />
+        <Point X="11.436" Y="3.697" />
+        <Point X="11.436" Y="3.688" />
+        <Point X="8.708" Y="3.687" Type="JumpStart" />
+        <Point X="8.542" Y="3.688" Type="JumpEnd" />
+        <Point X="8.25" Y="3.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualPublicoObjetivo">
+    <Position X="20.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualRecursoHumano">
+    <Position X="21" Y="5.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualRecursoMaterial">
+    <Position X="17" Y="6.75" Width="2.75" />
+    <AssociationLine Name="ProgramaAnual" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnual" ManuallyRouted="true">
+      <Path>
+        <Point X="18.375" Y="6.75" />
+        <Point X="18.375" Y="5.817" />
+        <Point X="17.119" Y="5.817" />
+        <Point X="17.119" Y="3.945" />
+        <Point X="8.625" Y="3.945" />
+        <Point X="8.625" Y="2.321" />
+        <Point X="8.25" Y="2.321" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadBeneficiario">
+    <Position X="7.25" Y="18.75" Width="2.75" />
+    <AssociationLine Name="ProgramaAnualActividad" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividad" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.438" Y="18.75" />
+        <Point X="8.438" Y="18.375" />
+        <Point X="9.969" Y="18.375" />
+        <Point X="9.969" Y="18.016" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadCompromiso">
+    <Position X="21" Y="8.25" Width="2.75" />
+    <AssociationLine Name="Actividad" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividad" ManuallyRouted="true">
+      <Path>
+        <Point X="21" Y="9.316" />
+        <Point X="20.406" Y="9.316" />
+        <Point X="20.406" Y="4.897" />
+        <Point X="17.202" Y="4.897" Type="JumpStart" />
+        <Point X="17.036" Y="4.897" Type="JumpEnd" />
+        <Point X="11.372" Y="4.897" Type="JumpStart" />
+        <Point X="11.206" Y="4.897" Type="JumpEnd" />
+        <Point X="10.766" Y="4.897" />
+        <Point X="10.766" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Compromiso" />
+      <Property Name="Actividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadComunidad">
+    <Position X="13.75" Y="14.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadDesembolso">
+    <Position X="13.75" Y="17.25" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadDesembolsoImputacion">
+    <Position X="17" Y="11.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadDesembolsoPaso">
+    <Position X="17" Y="18.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadDesembolsoPasoResponsable">
+    <Position X="17" Y="9.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadEntidadContraparte">
+    <Position X="13.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadIndicador">
+    <Position X="13.75" Y="6.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadPaso">
+    <Position X="17" Y="23.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadPasoResponsable">
+    <Position X="17" Y="16" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadPqr">
+    <Position X="10.5" Y="18.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Actividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadProgramacion">
+    <Position X="30.75" Y="2.25" Width="2.75" />
+    <AssociationLine Name="ProgramaAnualActividad" Type="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividad" ManuallyRouted="true">
+      <Path>
+        <Point X="30.75" Y="6.691" />
+        <Point X="24.367" Y="6.691" />
+        <Point X="24.367" Y="4.355" />
+        <Point X="21.958" Y="4.355" Type="JumpStart" />
+        <Point X="21.792" Y="4.355" Type="JumpEnd" />
+        <Point X="17.202" Y="4.355" Type="JumpStart" />
+        <Point X="17.036" Y="4.355" Type="JumpEnd" />
+        <Point X="11.289" Y="4.355" />
+        <Point X="11.289" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadZonaInfluencia">
+    <Position X="13.75" Y="12.25" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ProgramaAnualActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PlanificacionAgg.ProgramaAnualActividadDesembolsoImputacionOtros">
+    <Position X="17" Y="13.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.CompromisoObligacionAgg.CompromisoObligacion">
+    <Position X="25" Y="8.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PqrAgg.Pqr">
+    <Position X="30.75" Y="11.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PqrAgg.PqrInvolucrado">
+    <Position X="35.25" Y="11.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PqrCierreAgg.PqrCierre">
+    <Position X="35.25" Y="15.25" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Pqr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PqrCierreRespuestaAgg.PqrCierreRespuesta">
+    <Position X="35.25" Y="20" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Pqr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RepresentanteAgg.Representante">
+    <Position X="35.25" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RepresentanteAgg.RepresentanteContacto">
+    <Position X="39.25" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RiesgoAgg.Riesgo">
+    <Position X="39.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RiesgoAgg.RiesgoAntecedente">
+    <Position X="39.25" Y="14.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RiesgoAgg.RiesgoResponsable">
+    <Position X="39.25" Y="17.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RiesgoAgg.RiesgoStakeholder">
+    <Position X="39.25" Y="19.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.RiesgoAgg.RiesgoZonaInfluencia">
+    <Position X="39.25" Y="22" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.StakeholderAgg.Stakeholder">
+    <Position X="25" Y="17" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.Acta">
+    <Position X="25" Y="25.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Estado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgenda">
+    <Position X="20.75" Y="25.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Acta" />
+      <Property Name="Cabecera" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgendaAcuerdo">
+    <Position X="20.75" Y="29.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Agenda" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgendaCabecera">
+    <Position X="20.75" Y="22.5" Width="2.75" />
+    <AssociationLine Name="Acta" Type="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.Acta" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23.5" Y="23.758" />
+        <Point X="23.875" Y="23.758" />
+        <Point X="23.875" Y="26.478" />
+        <Point X="25" Y="26.478" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Acta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgendaCompromiso">
+    <Position X="17" Y="28.5" Width="2.75" />
+    <AssociationLine Name="Agenda" Type="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgenda" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.75" Y="29.625" />
+        <Point X="20.125" Y="29.625" />
+        <Point X="20.125" Y="27.297" />
+        <Point X="20.75" Y="27.297" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Agenda" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAgendaTarea">
+    <Position X="28.25" Y="25.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Agenda" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaAsistente">
+    <Position X="20.75" Y="32" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Acta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.ActaConvocado">
+    <Position X="28.25" Y="32.75" Width="2.75" />
+    <AssociationLine Name="Acta" Type="ProtoWeb.Domain.MainContext.Aggregates.ActaAgg.Acta" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="28.25" Y="33.562" />
+        <Point X="27.094" Y="33.562" />
+        <Point X="27.094" Y="32.113" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Acta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ArchivoAgg.Archivo">
+    <Position X="17" Y="31.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="TipoArchivo" />
+      <Property Name="TipoEntidad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ParametroAgg.Parametro">
+    <Position X="12.5" Y="28" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ParametroAgg.ParametroDetalle">
+    <Position X="12.5" Y="31.25" Width="2.75" />
+    <AssociationLine Name="ParametroDetallePadre" Type="ProtoWeb.Domain.MainContext.Aggregates.ParametroAgg.ParametroDetalle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="38.382" />
+        <Point X="13.25" Y="39.024" />
+        <Point X="14.294" Y="39.024" />
+        <Point X="14.294" Y="38.382" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.171" Y="0.243" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Parametro" />
+      <Property Name="ParametroDetallePadre" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.PersonaAgg.Persona">
+    <Position X="8.25" Y="31.25" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Estado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareaAgg.Tarea">
+    <Position X="8.25" Y="34.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="EstadoEntidad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareaAgg.TareaAvanceEjecucion">
+    <Position X="4.75" Y="34.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareoAgg.Tareo">
+    <Position X="4.75" Y="38" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ZonaOperativa" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaOperativaAgg.ZonaOperativa">
+    <Position X="0.5" Y="38" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareoAgg.TareoColaborador">
+    <Position X="4.75" Y="41.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Colaborador" />
+      <Property Name="Tareo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Usuario">
+    <Position X="12.5" Y="40.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareoAgg.TareoColaboradorFechas">
+    <Position X="4.75" Y="45.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="TareoColaborador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TareoAgg.TareoColaboradorTurno">
+    <Position X="8.25" Y="43.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="TareoColaborador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TipoCambioAgg.TipoCambio">
+    <Position X="0.5" Y="42.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TrazabilidadAgg.Trazabilidad">
+    <Position X="0.5" Y="34" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.TrazabilidadAgg.TrazabilidadDetalle">
+    <Position X="0.5" Y="30.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Trazabilidad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UbicacionRelevanteAgg.UbicacionRelevante">
+    <Position X="4.75" Y="30.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Modulo">
+    <Position X="17" Y="37.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Permiso">
+    <Position X="17" Y="39.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Modulo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.PermisoAdicional">
+    <Position X="21" Y="39.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Permiso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.PermisoNivelAcceso">
+    <Position X="17" Y="44.25" Width="2.75" />
+    <AssociationLine Name="NivelAcceso" Type="ProtoWeb.Domain.MainContext.Aggregates.ParametroAgg.ParametroDetalle" ManuallyRouted="true">
+      <Path>
+        <Point X="17" Y="45.22" />
+        <Point X="16.182" Y="45.22" />
+        <Point X="16.182" Y="35.683" />
+        <Point X="15.25" Y="35.683" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="NivelAcceso" />
+      <Property Name="Permiso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.UsuarioPerfil">
+    <Position X="12.5" Y="46.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+      <Property Name="Perfil" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Perfil">
+    <Position X="17" Y="46.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.PerfilPermiso">
+    <Position X="21" Y="47" Width="2.75" />
+    <AssociationLine Name="Permiso" Type="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Permiso" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21" Y="47.75" />
+        <Point X="20.389" Y="47.75" />
+        <Point X="20.389" Y="42.246" />
+        <Point X="19.75" Y="42.246" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Perfil" Type="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.Perfil" FixedFromPoint="true">
+      <Path>
+        <Point X="21" Y="48.438" />
+        <Point X="19.75" Y="48.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Permiso" />
+      <Property Name="Perfil" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.UsuarioAgg.PerfilPermisoAdicional">
+    <Position X="21" Y="43.75" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="PerfilPermiso" />
+      <Property Name="PermisoAdicional" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.ZonaInfluencia">
+    <Position X="0.5" Y="20.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.ZonaInfluenciaAutoridad">
+    <Position X="0.5" Y="17.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.ZonaInfluenciaFestividad">
+    <Position X="0.5" Y="27.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.LineaBase">
+    <Position X="6" Y="21.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="ZonaInfluencia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.LineaBaseActividadEconomica">
+    <Position X="10.5" Y="21.5" Width="2.75" />
+    <AssociationLine Name="TipoActividad" Type="ProtoWeb.Domain.MainContext.Aggregates.ParametroAgg.ParametroDetalle" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="23.632" />
+        <Point X="11.75" Y="35.312" />
+        <Point X="12.5" Y="35.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="LineaBase" />
+      <Property Name="TipoActividad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProtoWeb.Domain.MainContext.Aggregates.ZonaInfluenciaAgg.LineaBaseServicio">
+    <Position X="6" Y="26.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="LineaBase" />
+      <Property Name="Servicio" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

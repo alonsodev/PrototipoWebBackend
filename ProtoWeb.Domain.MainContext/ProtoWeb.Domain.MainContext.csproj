@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Aggregates\ObjectValue\**" />
+    <EmbeddedResource Remove="Aggregates\ObjectValue\**" />
+    <None Remove="Aggregates\ObjectValue\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProtoWeb.Domain.Core\ProtoWeb.Domain.Core.csproj" />
+    <ProjectReference Include="..\ProtoWeb.Infra.CrossCutting.Net\ProtoWeb.Infra.CrossCutting.Net.csproj" />
+  </ItemGroup>
+
+</Project>
