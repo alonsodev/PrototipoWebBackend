@@ -13,6 +13,7 @@ namespace ProtoWeb.Application.MainContext.Commands.Register
 {
     public class RegisterCliente : IRegisterCliente
     {
+        //p´rueba
         readonly IClienteReadOnlyRepository ClienteReadOnlyRepository;
         readonly IClienteWriteOnlyRepository ClienteWriteOnlyRepository;
         readonly IUnitOfWork unitOfWork;
